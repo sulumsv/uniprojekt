@@ -9038,7 +9038,7 @@ button:focus {
   box-shadow: none;
 }
 .navbar-toggler-line {
-  background: var(--dark-gray);
+  background: var(--white);
   height: 2px;
   width: 22px;
   content: "";
@@ -13233,7 +13233,7 @@ button.mfp-close:active:before {
 .modal-popup-main {
   position: relative;
 }
-/* Auto Projekteletter popup */
+/* Auto newsletter popup */
 .subscribe-popup .mfp-close,
 .subscribe-popup .mfp-close:active {
   background-color: transparent;
@@ -13257,13 +13257,13 @@ button.mfp-close:active:before {
 .subscribe-popup .mfp-close:before {
   color: var(--dark-gray);
 }
-.subscribe-popup .Projekteletter-style-02 input {
+.subscribe-popup .newsletter-style-02 input {
   padding-right: 70px;
 }
-.subscribe-popup .Projekteletter-style-02 .btn {
+.subscribe-popup .newsletter-style-02 .btn {
   padding: 6px 25px 9px 25px;
 }
-.Projekteletter-popup label {
+.newsletter-popup label {
   cursor: pointer;
 }
 /* Parallax background */
@@ -16126,29 +16126,29 @@ canvas {
   line-height: normal;
 }
 /* Subcribe style 01 */
-.Projekteletter-style-01 input {
+.newsletter-style-01 input {
   border-radius: 4px;
   padding-right: 160px;
 }
-.Projekteletter-style-01 input.is-invalid {
+.newsletter-style-01 input.is-invalid {
   padding-right: 160px;
 }
-.Projekteletter-style-01 .btn {
+.newsletter-style-01 .btn {
   position: absolute;
   right: 0;
   top: 0;
   height: 100%;
   border-radius: 0 4px 4px 0;
 }
-.Projekteletter-style-01 .btn i {
+.newsletter-style-01 .btn i {
   top: 1px;
 }
 /* Subcribe style 02 */
-.Projekteletter-style-02 input {
+.newsletter-style-02 input {
   border-radius: 4px;
   padding-right: 60px !important;
 }
-.Projekteletter-style-02 .btn {
+.newsletter-style-02 .btn {
   position: absolute;
   right: 0;
   top: 0;
@@ -16157,19 +16157,19 @@ canvas {
   padding: 10px 25px 9px 25px;
   display: inline-block;
 }
-.Projekteletter-style-02 .btn i {
+.newsletter-style-02 .btn i {
   margin-left: 0;
   top: inherit;
 }
-.Projekteletter-style-02 .btn:active {
+.newsletter-style-02 .btn:active {
   border-color: transparent;
 }
 /* Subcribe style 03 */
-.Projekteletter-style-03 input {
+.newsletter-style-03 input {
   padding-right: 165px !important;
   padding-left: 30px !important;
 }
-.Projekteletter-style-03 .btn {
+.newsletter-style-03 .btn {
   position: absolute;
   right: 0;
   top: 0;
@@ -16177,16 +16177,16 @@ canvas {
   height: 100%;
   padding: 12px 35px 12px 30px;
 }
-.Projekteletter-style-03 .btn:active {
+.newsletter-style-03 .btn:active {
   border-color: transparent;
 }
 /* Subcribe style 04 */
-.Projekteletter-style-04 input {
+.newsletter-style-04 input {
   padding-left: 0;
   padding-right: 40px;
   border-radius: 0;
 }
-.Projekteletter-style-04 .btn {
+.newsletter-style-04 .btn {
   position: absolute;
   right: 0;
   top: 0;
@@ -16194,10 +16194,10 @@ canvas {
   padding: 0;
   border: none;
 }
-.Projekteletter-style-04 .btn i {
+.newsletter-style-04 .btn i {
   margin-left: 0;
 }
-.Projekteletter-style-01 .form-control, .Projekteletter-style-01 .form-control.is-invalid, .Projekteletter-style-01 .was-validated .form-control:invalid, .Projekteletter-style-02 .form-control, .Projekteletter-style-02 .form-control.is-invalid, .Projekteletter-style-02 .was-validated .form-control:invalid, .Projekteletter-style-03 .form-control, .Projekteletter-style-03 .form-control.is-invalid, .Projekteletter-style-03 .was-validated .form-control:invalid, .Projekteletter-style-04 .form-control, .Projekteletter-style-04 .form-control.is-invalid, .Projekteletter-style-04 .was-validated .form-control:invalid {
+.newsletter-style-01 .form-control, .newsletter-style-01 .form-control.is-invalid, .newsletter-style-01 .was-validated .form-control:invalid, .newsletter-style-02 .form-control, .newsletter-style-02 .form-control.is-invalid, .newsletter-style-02 .was-validated .form-control:invalid, .newsletter-style-03 .form-control, .newsletter-style-03 .form-control.is-invalid, .newsletter-style-03 .was-validated .form-control:invalid, .newsletter-style-04 .form-control, .newsletter-style-04 .form-control.is-invalid, .newsletter-style-04 .was-validated .form-control:invalid {
   background-image: inherit;
 }
 /* Tab */
@@ -16972,7 +16972,7 @@ canvas {
 }
 .testimonials-style-04.swiper-horizontal-3d .swiper-wrapper {
   position: relative;
-  width: 100%;
+  width: 100% !important;
   height: 100%;
   z-index: 1;
   display: flex;
@@ -19263,7 +19263,7 @@ footer .elements-social.social-icon-style-01 li a, footer .elements-social.socia
   width: auto;
   height: auto;
 }
-footer .Projekteletter-style-05 .input-small {
+footer .newsletter-style-05 .input-small {
   font-size: 14px;
 }
 footer .nav-link {
