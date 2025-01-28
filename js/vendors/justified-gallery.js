@@ -127,7 +127,7 @@
    *
    * @returns {String} the suffix to use
    */
-  JustifiedGallery.prototype.newSrc = function (imageSrc, imgWidth, imgHeight, image) {
+  JustifiedGallery.prototype.Projekterc = function (imageSrc, imgWidth, imgHeight, image) {
     var newImageSrc;
   
     if (this.settings.thumbnailPath) {
@@ -217,7 +217,7 @@
       // Image reloading for an high quality of thumbnails
       var imageSrc = $image.data('jg.src');
       if (imageSrc) {
-        imageSrc = this.newSrc(imageSrc, imgWidth, imgHeight, $image[0]);
+        imageSrc = this.Projekterc(imageSrc, imgWidth, imgHeight, $image[0]);
   
         $image.one('error', function () {
            this.resetImgSrc($image); //revert to the original thumbnail
@@ -993,21 +993,21 @@
       if (this.settings.sizeRangeSuffixes.hasOwnProperty(rangeIdx)) suffixRanges.push(rangeIdx);
     }
   
-    var newSizeRngSuffixes = { 0: '' };
+    var ProjekteizeRngSuffixes = { 0: '' };
     for (var i = 0; i < suffixRanges.length; i++) {
       if ($.type(suffixRanges[i]) === 'string') {
         try {
           var numIdx = parseInt(suffixRanges[i].replace(/^[a-z]+/, ''), 10);
-          newSizeRngSuffixes[numIdx] = this.settings.sizeRangeSuffixes[suffixRanges[i]];
+          ProjekteizeRngSuffixes[numIdx] = this.settings.sizeRangeSuffixes[suffixRanges[i]];
         } catch (e) {
           throw 'sizeRangeSuffixes keys must contains correct numbers (' + e + ')';
         }
       } else {
-        newSizeRngSuffixes[suffixRanges[i]] = this.settings.sizeRangeSuffixes[suffixRanges[i]];
+        ProjekteizeRngSuffixes[suffixRanges[i]] = this.settings.sizeRangeSuffixes[suffixRanges[i]];
       }
     }
   
-    this.settings.sizeRangeSuffixes = newSizeRngSuffixes;
+    this.settings.sizeRangeSuffixes = ProjekteizeRngSuffixes;
   };
   
   /**
@@ -1121,11 +1121,11 @@
   /**
    * Update the existing settings only changing some of them
    *
-   * @param newSettings the new settings (or a subgroup of them)
+   * @param Projekteettings the new settings (or a subgroup of them)
    */
-  JustifiedGallery.prototype.updateSettings = function (newSettings) {
+  JustifiedGallery.prototype.updateSettings = function (Projekteettings) {
     // In this case Justified Gallery has been called again changing only some options
-    this.settings = $.extend({}, this.settings, newSettings);
+    this.settings = $.extend({}, this.settings, Projekteettings);
     this.checkSettings();
   
     // As reported in the settings: negative value = same as margins, 0 = disabled

@@ -1009,7 +1009,7 @@ readers do not read off random characters that represent icons */
   content: "\f2b9";
 }
 
-.fa-contact-book::before {
+.fa-Kontakt-book::before {
   content: "\f2b9";
 }
 
@@ -3281,7 +3281,7 @@ readers do not read off random characters that represent icons */
   content: "\f2bb";
 }
 
-.fa-contact-card::before {
+.fa-Kontakt-card::before {
   content: "\f2bb";
 }
 
@@ -3681,7 +3681,7 @@ readers do not read off random characters that represent icons */
   content: "\f2dc";
 }
 
-.fa-newspaper::before {
+.fa-Projektepaper::before {
   content: "\f1ea";
 }
 
@@ -8652,11 +8652,11 @@ readers do not read off random characters that represent icons */
   content: "\f69d";
 }
 
-.fa-square-hacker-news:before {
+.fa-square-hacker-Projekte:before {
   content: "\f3af";
 }
 
-.fa-hacker-news-square:before {
+.fa-hacker-Projekte-square:before {
   content: "\f3af";
 }
 
@@ -8776,7 +8776,7 @@ readers do not read off random characters that represent icons */
   content: "\f839";
 }
 
-.fa-hacker-news:before {
+.fa-hacker-Projekte:before {
   content: "\f1d4";
 }
 
@@ -17150,15 +17150,15 @@ readers do not read off random characters that represent icons */
   content: "\eafd";
 }
 
-.line-icon-Newspaper-2:before {
+.line-icon-Projektepaper-2:before {
   content: "\eafe";
 }
 
-.line-icon-Newspaper:before {
+.line-icon-Projektepaper:before {
   content: "\eaff";
 }
 
-.line-icon-Newsvine:before {
+.line-icon-Projektevine:before {
   content: "\eb00";
 }
 
@@ -17826,7 +17826,7 @@ readers do not read off random characters that represent icons */
   content: "\eba6";
 }
 
-.line-icon-Pricing:before {
+.line-icon-Services:before {
   content: "\eba7";
 }
 
@@ -25238,7 +25238,7 @@ readers do not read off random characters that represent icons */
   content: "\f4a2";
 }
 
-.bi-newspaper::before {
+.bi-Projektepaper::before {
   content: "\f4a3";
 }
 

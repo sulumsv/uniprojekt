@@ -975,15 +975,15 @@ var Swiper = (function () {
 
     // Remove last grid elements depending on width
     if (!params.centeredSlides) {
-      const newSlidesGrid = [];
+      const ProjektelidesGrid = [];
       for (let i = 0; i < snapGrid.length; i += 1) {
         let slidesGridItem = snapGrid[i];
         if (params.roundLengths) slidesGridItem = Math.floor(slidesGridItem);
         if (snapGrid[i] <= swiper.virtualSize - swiperSize) {
-          newSlidesGrid.push(slidesGridItem);
+          ProjektelidesGrid.push(slidesGridItem);
         }
       }
-      snapGrid = newSlidesGrid;
+      snapGrid = ProjektelidesGrid;
       if (Math.floor(swiper.virtualSize - swiperSize) - Math.floor(snapGrid[snapGrid.length - 1]) > 1) {
         snapGrid.push(swiper.virtualSize - swiperSize);
       }
@@ -2423,8 +2423,8 @@ var Swiper = (function () {
       if (prependSlidesIndexes.length > 0 && isPrev) {
         if (typeof slideRealIndex === 'undefined') {
           const currentSlideTranslate = swiper.slidesGrid[activeIndex];
-          const newSlideTranslate = swiper.slidesGrid[activeIndex + slidesPrepended];
-          const diff = newSlideTranslate - currentSlideTranslate;
+          const ProjektelideTranslate = swiper.slidesGrid[activeIndex + slidesPrepended];
+          const diff = ProjektelideTranslate - currentSlideTranslate;
           if (byMousewheel) {
             swiper.setTranslate(swiper.translate - diff);
           } else {
@@ -2444,8 +2444,8 @@ var Swiper = (function () {
       } else if (appendSlidesIndexes.length > 0 && isNext) {
         if (typeof slideRealIndex === 'undefined') {
           const currentSlideTranslate = swiper.slidesGrid[activeIndex];
-          const newSlideTranslate = swiper.slidesGrid[activeIndex - slidesAppended];
-          const diff = newSlideTranslate - currentSlideTranslate;
+          const ProjektelideTranslate = swiper.slidesGrid[activeIndex - slidesAppended];
+          const diff = ProjektelideTranslate - currentSlideTranslate;
           if (byMousewheel) {
             swiper.setTranslate(swiper.translate - diff);
           } else {
@@ -2496,15 +2496,15 @@ var Swiper = (function () {
     } = swiper;
     if (!params.loop || swiper.virtual && swiper.params.virtual.enabled) return;
     swiper.recalcSlides();
-    const newSlidesOrder = [];
+    const ProjektelidesOrder = [];
     swiper.slides.forEach(slideEl => {
       const index = typeof slideEl.swiperSlideIndex === 'undefined' ? slideEl.getAttribute('data-swiper-slide-index') * 1 : slideEl.swiperSlideIndex;
-      newSlidesOrder[index] = slideEl;
+      ProjektelidesOrder[index] = slideEl;
     });
     swiper.slides.forEach(slideEl => {
       slideEl.removeAttribute('data-swiper-slide-index');
     });
-    newSlidesOrder.forEach(slideEl => {
+    ProjektelidesOrder.forEach(slideEl => {
       slidesEl.append(slideEl);
     });
     swiper.recalcSlides();
@@ -4533,13 +4533,13 @@ var Swiper = (function () {
     function prependSlide(slides) {
       const activeIndex = swiper.activeIndex;
       let newActiveIndex = activeIndex + 1;
-      let numberOfNewSlides = 1;
+      let numberOfProjektelides = 1;
       if (Array.isArray(slides)) {
         for (let i = 0; i < slides.length; i += 1) {
           if (slides[i]) swiper.virtual.slides.unshift(slides[i]);
         }
         newActiveIndex = activeIndex + slides.length;
-        numberOfNewSlides = slides.length;
+        numberOfProjektelides = slides.length;
       } else {
         swiper.virtual.slides.unshift(slides);
       }
@@ -4550,9 +4550,9 @@ var Swiper = (function () {
           const cachedEl = cache[cachedIndex];
           const cachedElIndex = cachedEl.getAttribute('data-swiper-slide-index');
           if (cachedElIndex) {
-            cachedEl.setAttribute('data-swiper-slide-index', parseInt(cachedElIndex, 10) + numberOfNewSlides);
+            cachedEl.setAttribute('data-swiper-slide-index', parseInt(cachedElIndex, 10) + numberOfProjektelides);
           }
-          newCache[parseInt(cachedIndex, 10) + numberOfNewSlides] = cachedEl;
+          newCache[parseInt(cachedIndex, 10) + numberOfProjektelides] = cachedEl;
         });
         swiper.virtual.cache = newCache;
       }
@@ -5855,28 +5855,28 @@ var Swiper = (function () {
       } = scrollbar;
       const params = swiper.params.scrollbar;
       const progress = swiper.params.loop ? swiper.progressLoop : swiper.progress;
-      let newSize = dragSize;
+      let Projekteize = dragSize;
       let newPos = (trackSize - dragSize) * progress;
       if (rtl) {
         newPos = -newPos;
         if (newPos > 0) {
-          newSize = dragSize - newPos;
+          Projekteize = dragSize - newPos;
           newPos = 0;
         } else if (-newPos + dragSize > trackSize) {
-          newSize = trackSize + newPos;
+          Projekteize = trackSize + newPos;
         }
       } else if (newPos < 0) {
-        newSize = dragSize + newPos;
+        Projekteize = dragSize + newPos;
         newPos = 0;
       } else if (newPos + dragSize > trackSize) {
-        newSize = trackSize - newPos;
+        Projekteize = trackSize - newPos;
       }
       if (swiper.isHorizontal()) {
         dragEl.style.transform = `translate3d(${newPos}px, 0, 0)`;
-        dragEl.style.width = `${newSize}px`;
+        dragEl.style.width = `${Projekteize}px`;
       } else {
         dragEl.style.transform = `translate3d(0px, ${newPos}px, 0)`;
-        dragEl.style.height = `${newSize}px`;
+        dragEl.style.height = `${Projekteize}px`;
       }
       if (params.hide) {
         clearTimeout(timeout);
@@ -8404,7 +8404,7 @@ var Swiper = (function () {
       } = swiper.params.grid;
       const slidesLength = swiper.virtual && swiper.params.virtual.enabled ? swiper.virtual.slides.length : slides.length;
       // Set slides order
-      let newSlideOrderIndex;
+      let ProjektelideOrderIndex;
       let column;
       let row;
       if (fill === 'row' && slidesPerGroup > 1) {
@@ -8413,8 +8413,8 @@ var Swiper = (function () {
         const columnsInGroup = groupIndex === 0 ? slidesPerGroup : Math.min(Math.ceil((slidesLength - groupIndex * rows * slidesPerGroup) / rows), slidesPerGroup);
         row = Math.floor(slideIndexInGroup / columnsInGroup);
         column = slideIndexInGroup - row * columnsInGroup + groupIndex * slidesPerGroup;
-        newSlideOrderIndex = column + row * slidesNumberEvenToRows / rows;
-        slide.style.order = newSlideOrderIndex;
+        ProjektelideOrderIndex = column + row * slidesNumberEvenToRows / rows;
+        slide.style.order = ProjektelideOrderIndex;
       } else if (fill === 'column') {
         column = Math.floor(i / rows);
         row = i - column * rows;
@@ -8450,14 +8450,14 @@ var Swiper = (function () {
         swiper.wrapperEl.style[swiper.getDirectionLabel('width')] = `${swiper.virtualSize + spaceBetween}px`;
       }
       if (centeredSlides) {
-        const newSlidesGrid = [];
+        const ProjektelidesGrid = [];
         for (let i = 0; i < snapGrid.length; i += 1) {
           let slidesGridItem = snapGrid[i];
           if (roundLengths) slidesGridItem = Math.floor(slidesGridItem);
-          if (snapGrid[i] < swiper.virtualSize + snapGrid[0]) newSlidesGrid.push(slidesGridItem);
+          if (snapGrid[i] < swiper.virtualSize + snapGrid[0]) ProjektelidesGrid.push(slidesGridItem);
         }
         snapGrid.splice(0, snapGrid.length);
-        snapGrid.push(...newSlidesGrid);
+        snapGrid.push(...ProjektelidesGrid);
       }
     };
     const onInit = () => {

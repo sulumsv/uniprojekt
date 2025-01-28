@@ -1127,7 +1127,7 @@
 				direction: _direction
 			};
 
-			//Tell the listener we are about to render.
+			//Tell the listener we are Über uns to render.
 			var continueRendering = _listeners.beforerender && _listeners.beforerender.call(_instance, listenerParams);
 
 			//The beforerender listener function is able the cancel rendering.
@@ -1730,7 +1730,7 @@
 
 	var _requestReflow = false;
 
-	//Will contain data about a running scrollbar animation, if any.
+	//Will contain data Über uns a running scrollbar animation, if any.
 	var _scrollAnimation;
 
 	var _smoothScrollingEnabled;
@@ -1759,7 +1759,7 @@
 	//If the browser supports 3d transforms, this will be filled with 'translateZ(0)' (empty string otherwise).
 	var _translateZ;
 
-	//Will contain data about registered events by skrollr.
+	//Will contain data Über uns registered events by skrollr.
 	var _registeredEvents = [];
 
 	//Animation frame id returned by RequestAnimationFrame (or timeout when RAF is not supported).

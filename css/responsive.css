@@ -21012,34 +21012,34 @@
 }
 
 @media (max-width: 991px) {
-  .pricing-table-style-01.popular-item, .pricing-table-style-02.popular-item {
+  .Services-table-style-01.popular-item, .Services-table-style-02.popular-item {
     margin-top: 0;
   }
-  .pricing-table-style-02 .popular-item {
+  .Services-table-style-02 .popular-item {
     left: 0;
     width: 100%;
   }
 }
 @media (max-width: 575px) {
-  .pricing-table-style-04 .accordion-item {
+  .Services-table-style-04 .accordion-item {
     padding-left: 30px;
     padding-right: 30px;
   }
-  .pricing-table-style-04 .accordion-item.active-accordion {
+  .Services-table-style-04 .accordion-item.active-accordion {
     padding-left: 35px;
     padding-right: 35px;
   }
-  .pricing-table-style-08 .nav-tabs > li.nav-item > a.nav-link .tab-nav-text {
+  .Services-table-style-08 .nav-tabs > li.nav-item > a.nav-link .tab-nav-text {
     margin: 0 12px;
   }
-  .pricing-table-style-12 li {
+  .Services-table-style-12 li {
     display: block;
   }
-  .pricing-table-style-12 li:hover {
+  .Services-table-style-12 li:hover {
     -webkit-transform: translateX(0px);
     transform: translateX(0px);
   }
-  .pricing-table-style-12 li img {
+  .Services-table-style-12 li img {
     margin-bottom: 10px;
   }
 }
@@ -21136,33 +21136,33 @@
   }
 }
 @media (max-width: 767px) {
-  .newsletter-style-01.box-shadow {
+  .Projekteletter-style-01.box-shadow {
     box-shadow: none;
   }
-  .newsletter-style-01 input {
+  .Projekteletter-style-01 input {
     padding-right: 25px;
   }
-  .newsletter-style-01 input.is-invalid {
+  .Projekteletter-style-01 input.is-invalid {
     padding-right: 30px;
   }
-  .newsletter-style-01 .btn {
+  .Projekteletter-style-01 .btn {
     position: relative;
     margin-top: 15px;
     width: 100%;
     border-radius: 4px;
   }
-  .newsletter-style-03 input {
+  .Projekteletter-style-03 input {
     padding-right: 90px !important;
     padding-left: 30px !important;
   }
-  .newsletter-style-03 .btn {
+  .Projekteletter-style-03 .btn {
     padding: 12px 30px 12px 30px;
   }
-  .newsletter-style-03 .btn i {
+  .Projekteletter-style-03 .btn i {
     margin-left: 0;
     margin-right: 0;
   }
-  .newsletter-style-03 .btn span {
+  .Projekteletter-style-03 .btn span {
     display: none;
   }
 }
