@@ -1,0 +1,22 @@
+RewriteEngine On
+
+# Match requests to your domain
+RewriteCond %{HTTP_HOST} ^(www\.)?uniprojekt\.at$ [NC]
+
+# Redirect /home to home
+RewriteRule ^home$ /index.html [L]
+
+# Redirect /ueber-uns to ueber-uns.html
+RewriteRule ^ueber-uns$ /ueber-uns.html [L]
+
+# Redirect /services to services.html
+RewriteRule ^services$ /services.html [L]
+
+# Redirect /kontakt to kontakt.html
+RewriteRule ^kontakt$ /kontakt.html [L]
+
+# Redirect /projekte to projekte.html
+RewriteRule ^projekte$ /projekte.html [L]
+
+# Redirect /team to team.html
+RewriteRule ^team$ /team.html [L]
