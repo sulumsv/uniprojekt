@@ -1648,6 +1648,9 @@ progress {
   .offset-xl-11 {
     margin-left: 91.66666667%;
   }
+  .offset-xr-10 {
+    margin-left: 8.33333333%;
+  }
   .g-xl-0,
   .gx-xl-0 {
     --bs-gutter-x: 0;

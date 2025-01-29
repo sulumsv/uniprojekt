@@ -5,13 +5,13 @@ if( ! empty( $_POST['email'] ) ) {
 	$enable_smtp = 'no'; // yes OR no
 
 	// Email Receiver Address
-	$receiver_email = 'info@domain.com';
+	$receiver_email = 'uniprojektgmbh@hotmail.com';
 
 	// Email Receiver Name for SMTP Email
-	$receiver_name 	= 'Your Name';
+	$receiver_name 	= 'Name';
 
 	// Email Subject
-	$subject = 'Kontakt form details';
+	$subject = 'Kontakt';
 
 	// Google reCaptcha secret Key
 	$grecaptcha_secret_key = 'YOUR_SECRET_KEY';
