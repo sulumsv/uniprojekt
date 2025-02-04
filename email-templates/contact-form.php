@@ -5,10 +5,10 @@ if( ! empty( $_POST['email'] ) ) {
 	$enable_smtp = 'no'; // yes OR no
 
 	// Email Receiver Address
-	$receiver_email = 'uniprojektgmbh@hotmail.com';
+	$receiver_email = 'office@uniprojekt.at';
 
 	// Email Receiver Name for SMTP Email
-	$receiver_name 	= 'Name';
+	$receiver_name 	= 'Uniprojekt';
 
 	// Email Subject
 	$subject = 'Kontakt';
