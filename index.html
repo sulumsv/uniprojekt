@@ -1,358 +1,686 @@
-﻿<!doctype html>
+﻿<!DOCTYPE html>
 <html class="no-js" lang="en">
-    <head>
-        <title>Home - Uniprojekt</title>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="author" content="msv-digital">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-        <meta name="description" content="Home">
-        <!-- favicon icon -->
-        <link rel="shortcut icon" href="logos/logo_transparent_no_buffer.png">
-        <link rel="apple-touch-icon" href="logos/logo_transparent.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="logos/logo_transparent.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="logos/logo_transparent.png">
-        <!-- google fonts preconnect -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <!-- style sheets and font icons -->
-        <link rel="stylesheet" href="css/vendors.min.css"/>
-        <link rel="stylesheet" href="css/icon.min.css"/>
-        <link rel="stylesheet" href="css/style.css"/>
-        <link rel="stylesheet" href="css/responsive.css"/>
-        <!-- open Graph meta tags -->
-        <meta property="og:title" content="Home" />
-        <meta property="og:description" content="Uniprojekt - Ihr Partner im Bau" />
-        <meta property="og:image" href="logos/logo_transparent.png" />
-        <meta property="og:url" content="https://www.uniprojekt.at" />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Uniprojekt" />
-    </head>
-    <body data-mobile-nav-style="full-screen-menu" data-mobile-nav-bg-color="#bc8947" class="custom-cursor"> 
-        <!-- start cursor -->
-        <div class="cursor-page-inner">
-            <div class="circle-cursor circle-cursor-inner"></div>
-            <div class="circle-cursor circle-cursor-outer"></div>
-        </div>
-        <!-- end cursor -->
-        <!-- start header -->
-        <header>
-            <!-- start navigation -->
-            <nav class="navbar navbar-expand-lg bg-transparent disable-fixed"> 
-                <div class="container-fluid"> 
-                    <div class="col-auto col-lg-2 me-lg-0 me-auto">
-                        <a class="navbar-brand" href="home">
-                            <img src="logos/logo_white_transparent_no_buffer.png" data-at2x="logos/logo_white_transparent_no_buffer.png" alt="" class="default-logo">
-                            <img src="logos/logo_white_transparent_no_buffer.png" data-at2x="logos/logo_white_transparent_no_buffer.png" alt="" class="alt-logo">
-                            <img src="logos/logo_white_transparent_no_buffer.png" data-at2x="logos/logo_white_transparent_no_buffer.png" alt="" class="mobile-logo">
-                        </a>
-                    </div>
-                    <div class="col-auto col-lg-8 menu-order position-static">
-                        <button class="navbar-toggler float-start" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-expanded="false" aria-controls="navbarNav" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-line"></span>
-                            <span class="navbar-toggler-line"></span>
-                            <span class="navbar-toggler-line"></span>
-                            <span class="navbar-toggler-line"></span>
-                        </button>
-                        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                            <ul class="navbar-nav alt-font"> 
-                                <li class="nav-item"><a href="home" class="nav-link">Home</a></li>
-                                <li class="nav-item"><a href="ueber-uns" class="nav-link">Über uns</a></li>
-                                <li class="nav-item"><a href="team" class="nav-link">Team</a></li>
-                                <li class="nav-item"><a href="services" class="nav-link">Services</a></li>
-                                <li class="nav-item"><a href="projekte" class="nav-link">Projekte</a></li>
-                                <li class="nav-item"><a href="kontakt" class="nav-link">Kontakt</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-auto col-lg-2 text-end d-none d-sm-flex"> 
-                    </div>
-                </div>
-            </nav>
-            <!-- end navigation -->
-        </header>
-        <!-- end header -->
-        <!-- start banner slider -->
-        <section class="p-0 bg-dark-gray"> 
-            <div class=" full-screen md-h-600px sm-h-500px ipad-top-space-margin swiper-light-pagination swiper-pagination-style-3" data-slider-options='{ "slidesPerView": 1, "loop": true, "pagination": { "el": ".swiper-pagination-bullets", "clickable": true }}'>
-                <div class="swiper-wrapper">
-                    <!-- start slider item -->
-                    <div class="swiper-slide">
-                        <div class="position-absolute left-0px top-0px w-100 h-100 cover-background" style="background-image:url('images/uniprojekt_hintergrund.jpg');" data-anime='{ "translateY": [0, 0], "opacity": [1,1], "scale": [1,1.1], "duration": 7000, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'></div>
-                        <div class="opacity-light bg-gradient-black-dark-brown"></div>
-                        <div class="container h-100">
-                            <div class="row align-items-center h-100 justify-content-center">
-                                <div class="col-xl-7 col-lg-8 col-md-9 col-sm-10 position-relative text-white text-center">
-                                    <div class="d-inline-block position-relative mb-35px" data-anime='{ "opacity": [0, 1], "easing": "easeOutCubic", "duration": 500, "delay": 200 }'>
-                                        <span class="d-inline-block fw-400 text-white fs-22 mb-0">UNI Projekt GmbH</span>
-                                        <span class="h-1px opacity-3 w-100 bg-white d-inline-block transform-origin-left position-absolute bottom-0px left-0px"></span>
-                                    </div>
-                                    <div class="alt-font fs-65 lh-80 lg-fs-80 xs-fs-65 fw-500 mb-40px ls-minus-3px sm-ls-minus-2px text-shadow-double-large" data-fancy-text='{ "opacity": [0, 1], "translateY": [50, 0], "string": ["Ihr Partner für den Bau"], "duration": 500, "delay": 200, "speed": 10, "easing": "easeOutQuad" }'></div> 
-                                    <a href="services" class="btn btn-base-color btn-box-shadow btn-large btn-round-edge" data-anime='{ "opacity": [0, 1], "easing": "easeOutCubic", "delay": 800, "duration": 800 }'>Unsere Services</a>
-                                </div>
-                            </div> 
-                        </div>
-                    </div>
-                    <!-- end slider item -->
-                </div>
-            </div>
-        </section>
-        <!-- end banner slider -->  
-        <!-- start section -->
-        <section class="bg-very-light-gray overflow-hidden">
-            <div class="container">
-                <div class="row justify-content-center mb-2">
-                    <div class="col-lg-7 text-center" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 200, "easing": "easeOutQuad" }'>
-                        <span class="fs-17 d-inline-block fw-500 text-uppercase text-base-color ls-1px">Der Partner für Alles rund um Ihr Bauvorhaben</span>
-                        <h1 class="alt-font text-dark-gray fw-600 ls-minus-1px">Services</h1>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 position-relative">
-                        <div class="outside-box-right-50 md-outside-box-right-70 sm-outside-box-right-0" data-anime='{ "translateX": [100, 0], "opacity": [0,1], "duration": 800, "delay": 100, "staggervalue": 250, "easing": "easeOutQuad" }'>
-                            <div class="swiper magic-cursor ps-30px pe-30px sm-ps-0 sm-pe-0" data-slider-options='{ "slidesPerView": 1, "spaceBetween": 35, "loop": true, "autoplay": { "delay": 3000, "disableOnInteraction": false },  "pagination": { "el": ".slider-four-slide-pagination-1", "clickable": true, "dynamicBullets": false }, "keyboard": { "enabled": true, "onlyInViewport": true }, "breakpoints": { "1200": { "slidesPerView": 3 }, "992": { "slidesPerView": 2, "spaceBetween": 50 }, "768": { "slidesPerView": 2, "spaceBetween": 40 }, "320": { "slidesPerView": 1 } }, "effect": "slide" }'>
-                                <div class="swiper-wrapper pt-30px pb-30px">
-                                    <!-- start slider item --> 
-                                    <div class="swiper-slide">
-                                        <div class="row g-0 services-box-style-02"> 
-                                            <div class="col-sm-6 services-box bg-white p-5 xxl-p-8 box-shadow-extra-large">
-                                                <div class="services-box-content">
-                                                    <a href="services" class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500">Komplettbau und Sanierung</a>
-                                                    <p class="sm-mb-15px">Wir bieten alles rund um <strong>Rohbau</strong>, <strong>Altbausanierung</strong> und <strong>Außenfassaden</strong>. <strong>Stiegenbau</strong> und <strong>Geländer</strong> sorgen für eine sichere und moderne Gestaltung.</p>
-                                                    <a href="services" class="btn btn-extra-large thin btn-link text-base-color">Mehr erfahren</a>
-                                                </div> 
-                                            </div> 
-                                            <div class="col-sm-6 services-box-img xs-h-300px">
-                                                <div class="h-100 cover-background" style="background-image: url(images/service_01.jpg)"></div>
-                                            </div> 
-                                        </div>
-                                    </div>
-                                    <!-- end slider item -->
-                                    <!-- start slider item -->
-                                    <div class="swiper-slide">
-                                        <div class="row g-0 services-box-style-02"> 
-                                            <div class="col-sm-6 services-box bg-white p-5 xxl-p-8 box-shadow-extra-large">
-                                                <div class="services-box-content">
-                                                    <a href="services" class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500">Trockenbau und Innenausbau</a>
-                                                    <p class="sm-mb-15px">Vom <strong>Trockenbau</strong> bis zum <strong>Innenausbau</strong> sorgen wir für eine optimale Raumgestaltung. <strong>Malerarbeiten</strong> und <strong>Elektrik</strong> runden unser Angebot ab, damit Ihr Raum perfekt funktioniert.</p>
-                                                    <a href="services" class="btn btn-extra-large thin btn-link text-base-color">Mehr erfahren</a>
-                                                </div> 
-                                            </div> 
-                                            <div class="col-sm-6 services-box-img xs-h-300px">
-                                                <div class="h-100 cover-background" style="background-image: url(images/service_02.jpg)"></div>
-                                            </div> 
-                                        </div>
-                                    </div>
-                                    <!-- end slider item -->
-                                    <!-- start slider item -->
-                                    <div class="swiper-slide">
-                                        <div class="row g-0 services-box-style-02"> 
-                                            <div class="col-sm-6 services-box bg-white p-5 xxl-p-8 box-shadow-extra-large">
-                                                <div class="services-box-content">
-                                                    <a href="services" class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500">Garten- und Außenanlagenservice</a>
-                                                    <p class="sm-mb-15px">Wir übernehmen <strong>Gartenarbeiten</strong>, bauen <strong>Zäune</strong>, <strong>Mauern</strong> und realisieren <strong>Poolprojekte</strong>. Zusätzlich bieten wir <strong>Bagger- und Grabearbeiten</strong> für Ihre Außenanlagen an.</p>
-                                                    <a href="services" class="btn btn-extra-large thin btn-link text-base-color">Mehr erfahren</a>
-                                                </div> 
-                                            </div> 
-                                            <div class="col-sm-6 services-box-img xs-h-300px">
-                                                <div class="h-100 cover-background" style="background-image: url(images/service_03.jpg)"></div>
-                                            </div> 
-                                        </div>
-                                    </div>
-                                    <!-- end slider item --> 
-                                    <!-- start slider item -->
-                                    <div class="swiper-slide">
-                                        <div class="row g-0 services-box-style-02"> 
-                                            <div class="col-sm-6 services-box bg-white p-5 xxl-p-8 box-shadow-extra-large">
-                                                <div class="services-box-content">
-                                                    <a href="services" class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500">Baumaterial und Maschinenvermietung</a>
-                                                    <p class="sm-mb-15px">Wir bieten <strong>Baumaterialien</strong> zum <strong>Ankauf und Verkauf</strong> sowie die <strong>Kleinmaschinenvermietung</strong> an. Mieten Sie bei uns <strong>Minibagger</strong>, <strong>Rüttelplatten</strong> und <strong>Betonmischer</strong>, um Ihre Bauvorhaben effizient umzusetzen.</p>
-                                                    <a href="services" class="btn btn-extra-large thin btn-link text-base-color">Mehr erfahren</a>
-                                                </div> 
-                                            </div> 
-                                            <div class="col-sm-6 services-box-img xs-h-300px">
-                                                <div class="h-100 cover-background" style="background-image: url(images/service_04.jpg)"></div>
-                                            </div> 
-                                        </div>
-                                    </div>
-                                    <!-- end slider item -->
-                                    <!-- start slider item --> 
-                                    <div class="swiper-slide">
-                                        <div class="row g-0 services-box-style-02"> 
-                                            <div class="col-sm-6 services-box bg-white p-5 xxl-p-8 box-shadow-extra-large">
-                                                <div class="services-box-content">
-                                                    <a href="services" class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500">Infrastruktur- und Glasfaserarbeiten</a>
-                                                    <p class="sm-mb-15px">Unsere Experten kümmern sich um <strong>Glasfaser- und Kanalarbeiten</strong> sowie <strong>Bagger- und Grabearbeiten</strong> für Ihre Infrastrukturprojekte. So stellen wir die perfekte Basis für Ihre Vorhaben sicher.</p>
-                                                    <a href="services" class="btn btn-extra-large thin btn-link text-base-color">Mehr erfahren</a>
-                                                </div> 
-                                            </div> 
-                                            <div class="col-sm-6 services-box-img xs-h-300px">
-                                                <div class="h-100 cover-background" style="background-image: url(images/service_05.jpg)"></div>
-                                            </div> 
-                                        </div>
-                                    </div>
-                                    <!-- end slider item -->
-                                    <!-- start slider item -->
-                                    <div class="swiper-slide">
-                                        <div class="row g-0 services-box-style-02"> 
-                                            <div class="col-sm-6 services-box bg-white p-5 xxl-p-8 box-shadow-extra-large">
-                                                <div class="services-box-content">
-                                                    <a href="services" class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500">Komplettservice für Neubau und Renovierung</a>
-                                                    <p class="sm-mb-15px">Ob <strong>Neubau</strong> oder <strong>Renovierung</strong> – wir bieten den kompletten Service: <strong>Rohbau</strong>, <strong>Trockenbau</strong>, <strong>Malerarbeiten</strong> und mehr, um Ihr Projekt nach Ihren Wünschen umzusetzen.</p>
-                                                    <a href="services" class="btn btn-extra-large thin btn-link text-base-color">Mehr erfahren</a>
-                                                </div> 
-                                            </div> 
-                                            <div class="col-sm-6 services-box-img xs-h-300px">
-                                                <div class="h-100 cover-background" style="background-image: url(images/service_06.jpg)"></div>
-                                            </div> 
-                                        </div>
-                                    </div>
-                                    <!-- end slider item -->
-                                </div> 
-                            </div>
-                        </div>
-                        <!-- start slider pagination -->
-                        <!--<div class="swiper-pagination slider-four-slide-pagination-1 swiper-pagination-style-2 swiper-pagination-clickable swiper-pagination-bullets"></div>-->
-                        <!-- end slider pagination -->
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- end section -->
-        <!-- start section -->
-        <section>
-            <div class="container">
-                <div class="row justify-content-center mb-5">
-                    <div class="col-lg-7 text-center" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 800, "delay": 0, "staggervalue": 200, "easing": "easeOutQuad" }'>
-                        <span class="fs-17 d-inline-block fw-500 text-uppercase text-base-color ls-1px">Zufriedene Kunden</span>
-                        <h1 class="alt-font text-dark-gray fw-600 ls-minus-1px mb-0">Projekte</h1>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <ul class="blog-simple blog-wrapper grid-loading grid grid-3col xl-grid-3col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-extra-large" data-anime='{ "el": "childs", "willchange": "transform", "translateY": [30, 0], "perspective": [1200,1200], "scale": [1.05, 1], "rotateY": [-30, 0], "opacity": [0,1], "duration": 800, "delay": 100, "staggervalue": 200, "easing": "easeOutQuad" }'>
-                            <li class="grid-sizer"></li>
-                            <!-- start blog item -->
-                            <li class="grid-item">
-                                <figure class="position-relative mb-0 box-hover">
-                                    <div class="blog-image">
-                                        <img src="images/project_01.jpeg" alt="" />
-                                        <span class="box-overlay bg-dark-slate-blue"></span>
-                                        <span class="bg-gradient-gray-light-dark-transparent position-absolute opacity-4 top-0px left-0px w-100 h-100"></span>
-                                    </div>
-                                    <figcaption class="d-flex flex-column h-100 justify-content-end"> 
-                                        <div class="position-relative post-content p-13 text-center last-paragraph-no-margin">
-                                            <div class="position-relative z-index-2 overflow-hidden">
-                                                <a class="card-title fs-22 alt-font text-white mb-0 d-block">Treppenbau</a>
-                                                <div class="hover-text"><a href="projekte" class="btn btn-link-gradient btn-large text-white thin mt-20px mb-5px opacity-6 fw-400">Alle Projekte<span class="bg-white"></span></a></div>
-                                            </div>
-                                            <div class="box-overlay bg-dark-gray"></div>
-                                        </div>
-                                    </figcaption>
-                                </figure>
-                            </li>
-                            <!-- end blog item -->
-                            <!-- start blog item -->
-                            <li class="grid-item">
-                                <figure class="position-relative mb-0 box-hover">
-                                    <div class="blog-image">
-                                        <img src="images/project_03.jpeg" alt="" />
-                                        <span class="box-overlay bg-dark-slate-blue"></span>
-                                        <span class="bg-gradient-gray-light-dark-transparent position-absolute opacity-4 top-0px left-0px w-100 h-100"></span>
-                                    </div>
-                                    <figcaption class="d-flex flex-column h-100 justify-content-end"> 
-                                        <div class="position-relative post-content p-13 text-center last-paragraph-no-margin">
-                                            <div class="position-relative z-index-2 overflow-hidden">
-                                                <a class="card-title fs-22 alt-font text-white mb-0 d-block">Gartenarbeiten</a>
-                                                <div class="hover-text"><a href="projekte" class="btn btn-link-gradient btn-large text-white thin mt-20px mb-5px opacity-6 fw-400">Alle Projekte<span class="bg-white"></span></a></div>
-                                            </div>
-                                            <div class="box-overlay bg-dark-gray"></div>
-                                        </div>
-                                    </figcaption>
-                                </figure>
-                            </li>
-                            <!-- end blog item -->
-                            <!-- start blog item -->
-                            <li class="grid-item">
-                                <figure class="position-relative mb-0 box-hover">
-                                    <div class="blog-image">
-                                        <img src="images/project_12.jpeg" alt="" />
-                                        <span class="box-overlay bg-dark-slate-blue"></span>
-                                        <span class="bg-gradient-gray-light-dark-transparent position-absolute opacity-4 top-0px left-0px w-100 h-100"></span>
-                                    </div>
-                                    <figcaption class="d-flex flex-column h-100 justify-content-end"> 
-                                        <div class="position-relative post-content p-13 text-center last-paragraph-no-margin">
-                                            <div class="position-relative z-index-2 overflow-hidden">
-                                                <a class="card-title fs-22 alt-font text-white mb-0 d-block">Rohbau</a>
-                                                <div class="hover-text"><a href="projekte" class="btn btn-link-gradient btn-large text-white thin mt-20px mb-5px opacity-6 fw-400">Alle Projekte<span class="bg-white"></span></a></div>
-                                            </div>
-                                            <div class="box-overlay bg-dark-gray"></div>
-                                        </div>
-                                    </figcaption>
-                                </figure>
-                            </li>
-                            <!-- end blog item -->  
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- end section --> 
-        <!-- start footer -->
-        <footer class="footer-light bg-very-light-gray"> 
-            <div class="container">
-                <div class="row justify-content-center mb-5 xs-mb-20px">
-                    <div class="col-md-12 col-sm-10 text-center">
-                        <h4 class="alt-font text-dark-gray fw-500 ls-minus-1px">Auf der Suche nach einem Baupartner? <a href="mailto:office@uniprojekt.at" class="text-base-color fw-500 text-decoration-line-bottom-medium">Nachricht senden</a></h4>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <!-- start footer column -->
-                    <div class="col-11 col-xl-5 col-lg-2 col-md-4 order-1 order-lg-1 sm-pb-25px">
-                        <span class="alt-font fw-500 fs-20 d-block text-dark-gray mb-10px">Kontakt</span>
-                        <ul>                           
-                            <li><img src="images/maps-and-flags.png" style="width: 25px;"><a> Schöngrabern 510, 2020 Schöngrabern</a><li>
-                            <li><img src="images/phone-call.png" style="width: 25px;"><a> +43 660 222 0232</a></li>
-                            <li><img src="images/email.png" style="width: 25px;"><a> office@uniprojekt.at</a></li>
-                            <li><img src="images/24-hour-clock.png" style="width: 25px;"><a> Öffnungszeiten: Mo-Fr. 08:00 - 17:00 Uhr</a></li>
-                        </ul>
-                    </div>
-                    <!-- end footer column -->  
-                    <!-- start footer column -->
-                    <div class="col-11 col-xl-2 col-lg-3 col-md-4 order-1 order-lg-2 text-center">
-                        <span class="alt-font fw-500 fs-20 d-block text-dark-gray mb-10px">Menü</span>
-                        <ul>
-                            <li><a href="home">Home</a></li>
-                            <li><a href="ueber-uns">Über uns</a></li>
-                            <li><a href="team">Team</a></li>
-                            <li><a href="services">Services</a></li>
-                            <li><a href="projekte">Projekte</a></li>
-                            <li><a href="kontakt">Kontakt</a></li>
-                        </ul>
-                    </div>
-                    <!-- end footer column -->
-                    <!-- start footer column -->
-                    <div class="col-lg-3 col-md-4 col-sm-6 offset-xl-1 order-3 order-lg-4 order-md-3 order-sm-4 sm-mt-35px xs-mt-25px text-center text-sm-end">
-                        <a><img src="logos/logo_transparent.png" style="width: 50%;" data-at2x="logos/logo_transparent.png" alt=""></a>
-                        <p class="mb-15px">Ihr Partner für den Bau</p>
-                        <p>&COPY; <a href="home" target="_blank" class="text-decoration-line-bottom text-dark-gray fw-500">Uniprojekt</a></p>
-                        <a href="https://www.msv-digital.com"><img src="logos/msv-digital.png" style="width: 25%;" data-at2x="logos/msv-digital.png" alt=""></a>
-                    </div>
-                    <!-- end footer column -->
-                </div> 
-            </div> 
-        </footer>
-        <!-- end footer -->
-        <!-- start scroll progress -->
-        <div class="scroll-progress d-none d-xxl-block">
-            <a href="#" class="scroll-top" aria-label="scroll">
-                <span class="scroll-text">Scroll</span><span class="scroll-line"><span class="scroll-point"></span></span>
+  <head>
+    <title>Home - Uniprojekt</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="msv-digital" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="description" content="Home" />
+    <!-- favicon icon -->
+    <link rel="shortcut icon" href="logos/logo_transparent_no_buffer.png" />
+    <link rel="apple-touch-icon" href="logos/logo_transparent.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="logos/logo_transparent.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="logos/logo_transparent.png"
+    />
+    <!-- style sheets and font icons -->
+    <link rel="stylesheet" href="css/vendors.min.css" />
+    <link rel="stylesheet" href="css/icon.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- open Graph meta tags -->
+    <meta property="og:title" content="Home" />
+    <meta property="og:description" content="Uniprojekt - Ihr Partner im Bau" />
+    <meta property="og:image" href="logos/logo_transparent.png" />
+    <meta property="og:url" content="https://www.uniprojekt.at" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Uniprojekt" />
+  </head>
+  <body
+    data-mobile-nav-style="full-screen-menu"
+    data-mobile-nav-bg-color="#bc8947"
+    class="custom-cursor"
+  >
+    <!-- start cursor -->
+    <div class="cursor-page-inner">
+      <div class="circle-cursor circle-cursor-inner"></div>
+      <div class="circle-cursor circle-cursor-outer"></div>
+    </div>
+    <!-- end cursor -->
+    <!-- start header -->
+    <header>
+      <!-- start navigation -->
+      <nav class="navbar navbar-expand-lg bg-transparent disable-fixed">
+        <div class="container-fluid">
+          <div class="col-auto col-lg-2 me-lg-0 me-auto">
+            <a class="navbar-brand" href="home">
+              <img
+                src="logos/logo_white_transparent_no_buffer.png"
+                data-at2x="logos/logo_white_transparent_no_buffer.png"
+                alt=""
+                class="default-logo"
+              />
+              <img
+                src="logos/logo_white_transparent_no_buffer.png"
+                data-at2x="logos/logo_white_transparent_no_buffer.png"
+                alt=""
+                class="alt-logo"
+              />
+              <img
+                src="logos/logo_white_transparent_no_buffer.png"
+                data-at2x="logos/logo_white_transparent_no_buffer.png"
+                alt=""
+                class="mobile-logo"
+              />
             </a>
+          </div>
+          <div class="col-auto col-lg-8 menu-order position-static">
+            <button
+              class="navbar-toggler float-start"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-expanded="false"
+              aria-controls="navbarNav"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-line"></span>
+              <span class="navbar-toggler-line"></span>
+              <span class="navbar-toggler-line"></span>
+              <span class="navbar-toggler-line"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-center"
+              id="navbarNav"
+            >
+              <ul class="navbar-nav alt-font">
+                <li class="nav-item">
+                  <a href="home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="ueber-uns" class="nav-link">Über uns</a>
+                </li>
+                <li class="nav-item">
+                  <a href="team" class="nav-link">Team</a>
+                </li>
+                <li class="nav-item">
+                  <a href="services" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a href="projekte" class="nav-link">Projekte</a>
+                </li>
+                <li class="nav-item">
+                  <a href="kontakt" class="nav-link">Kontakt</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-auto col-lg-2 text-end d-none d-sm-flex"></div>
         </div>
-        <!-- end scroll progress -->
-        <!-- javascript libraries -->
-        <script type="text/javascript" src="js/jquery.js"></script>
-        <script type="text/javascript" src="js/vendors.min.js"></script>
-        <script type="text/javascript" src="js/main.js"></script>
-    </body>
+      </nav>
+      <!-- end navigation -->
+    </header>
+    <!-- end header -->
+    <!-- start banner slider -->
+    <section class="p-0 bg-dark-gray">
+      <div
+        class="full-screen md-h-600px sm-h-500px ipad-top-space-margin swiper-light-pagination swiper-pagination-style-3"
+        data-slider-options='{ "slidesPerView": 1, "loop": true, "pagination": { "el": ".swiper-pagination-bullets", "clickable": true }}'
+      >
+        <div class="swiper-wrapper">
+          <!-- start slider item -->
+          <div class="swiper-slide">
+            <div
+              class="position-absolute left-0px top-0px w-100 h-100 cover-background"
+              style="background-image: url('images/uniprojekt_hintergrund.jpg')"
+              data-anime='{ "translateY": [0, 0], "opacity": [1,1], "scale": [1,1.1], "duration": 7000, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'
+            ></div>
+            <div class="opacity-light bg-gradient-black-dark-brown"></div>
+            <div class="container h-100">
+              <div class="row align-items-center h-100 justify-content-center">
+                <div
+                  class="col-xl-7 col-lg-8 col-md-9 col-sm-10 position-relative text-white text-center"
+                >
+                  <div
+                    class="d-inline-block position-relative mb-35px"
+                    data-anime='{ "opacity": [0, 1], "easing": "easeOutCubic", "duration": 500, "delay": 200 }'
+                  >
+                    <span class="d-inline-block fw-400 text-white fs-22 mb-0"
+                      >UNI Projekt GmbH</span
+                    >
+                    <span
+                      class="h-1px opacity-3 w-100 bg-white d-inline-block transform-origin-left position-absolute bottom-0px left-0px"
+                    ></span>
+                  </div>
+                  <div
+                    class="alt-font fs-65 lh-80 lg-fs-80 xs-fs-65 fw-500 mb-40px ls-minus-3px sm-ls-minus-2px text-shadow-double-large"
+                    data-fancy-text='{ "opacity": [0, 1], "translateY": [50, 0], "string": ["Ihr Partner für den Bau"], "duration": 500, "delay": 200, "speed": 10, "easing": "easeOutQuad" }'
+                  ></div>
+                  <a
+                    href="services"
+                    class="btn btn-base-color btn-box-shadow btn-large btn-round-edge"
+                    data-anime='{ "opacity": [0, 1], "easing": "easeOutCubic", "delay": 800, "duration": 800 }'
+                    >Unsere Services</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end slider item -->
+        </div>
+      </div>
+    </section>
+    <!-- end banner slider -->
+    <!-- start section -->
+    <section class="bg-very-light-gray overflow-hidden">
+      <div class="container">
+        <div class="row justify-content-center mb-2">
+          <div
+            class="col-lg-7 text-center"
+            data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 200, "easing": "easeOutQuad" }'
+          >
+            <span
+              class="fs-17 d-inline-block fw-500 text-uppercase text-base-color ls-1px"
+              >Der Partner für Alles rund um Ihr Bauvorhaben</span
+            >
+            <h1 class="alt-font text-dark-gray fw-600 ls-minus-1px">
+              Services
+            </h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 position-relative">
+            <div
+              class="outside-box-right-50 md-outside-box-right-70 sm-outside-box-right-0"
+              data-anime='{ "translateX": [100, 0], "opacity": [0,1], "duration": 800, "delay": 100, "staggervalue": 250, "easing": "easeOutQuad" }'
+            >
+              <div
+                class="swiper magic-cursor ps-30px pe-30px sm-ps-0 sm-pe-0"
+                data-slider-options='{ "slidesPerView": 1, "spaceBetween": 35, "loop": true, "autoplay": { "delay": 3000, "disableOnInteraction": false },  "pagination": { "el": ".slider-four-slide-pagination-1", "clickable": true, "dynamicBullets": false }, "keyboard": { "enabled": true, "onlyInViewport": true }, "breakpoints": { "1200": { "slidesPerView": 3 }, "992": { "slidesPerView": 2, "spaceBetween": 50 }, "768": { "slidesPerView": 2, "spaceBetween": 40 }, "320": { "slidesPerView": 1 } }, "effect": "slide" }'
+              >
+                <div class="swiper-wrapper pt-30px pb-30px">
+                  <!-- start slider item -->
+                  <div class="swiper-slide">
+                    <div class="row g-0 services-box-style-02">
+                      <div
+                        class="col-sm-6 services-box bg-white p-5 xxl-p-8 box-shadow-extra-large"
+                      >
+                        <div class="services-box-content">
+                          <a
+                            href="services"
+                            class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500"
+                            >Komplettbau und Sanierung</a
+                          >
+                          <p class="sm-mb-15px">
+                            Wir bieten alles rund um <strong>Rohbau</strong>,
+                            <strong>Altbausanierung</strong> und
+                            <strong>Außenfassaden</strong>.
+                            <strong>Stiegenbau</strong> und
+                            <strong>Geländer</strong> sorgen für eine sichere
+                            und moderne Gestaltung.
+                          </p>
+                          <a
+                            href="services"
+                            class="btn btn-extra-large thin btn-link text-base-color"
+                            >Mehr erfahren</a
+                          >
+                        </div>
+                      </div>
+                      <div class="col-sm-6 services-box-img xs-h-300px">
+                        <div
+                          class="h-100 cover-background"
+                          style="background-image: url(images/service_01.jpg)"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- end slider item -->
+                  <!-- start slider item -->
+                  <div class="swiper-slide">
+                    <div class="row g-0 services-box-style-02">
+                      <div
+                        class="col-sm-6 services-box bg-white p-5 xxl-p-8 box-shadow-extra-large"
+                      >
+                        <div class="services-box-content">
+                          <a
+                            href="services"
+                            class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500"
+                            >Trockenbau und Innenausbau</a
+                          >
+                          <p class="sm-mb-15px">
+                            Vom <strong>Trockenbau</strong> bis zum
+                            <strong>Innenausbau</strong> sorgen wir für eine
+                            optimale Raumgestaltung.
+                            <strong>Malerarbeiten</strong> und
+                            <strong>Elektrik</strong> runden unser Angebot ab,
+                            damit Ihr Raum perfekt funktioniert.
+                          </p>
+                          <a
+                            href="services"
+                            class="btn btn-extra-large thin btn-link text-base-color"
+                            >Mehr erfahren</a
+                          >
+                        </div>
+                      </div>
+                      <div class="col-sm-6 services-box-img xs-h-300px">
+                        <div
+                          class="h-100 cover-background"
+                          style="background-image: url(images/service_02.jpg)"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- end slider item -->
+                  <!-- start slider item -->
+                  <div class="swiper-slide">
+                    <div class="row g-0 services-box-style-02">
+                      <div
+                        class="col-sm-6 services-box bg-white p-5 xxl-p-8 box-shadow-extra-large"
+                      >
+                        <div class="services-box-content">
+                          <a
+                            href="services"
+                            class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500"
+                            >Garten- und Außenanlagenservice</a
+                          >
+                          <p class="sm-mb-15px">
+                            Wir übernehmen <strong>Gartenarbeiten</strong>,
+                            bauen <strong>Zäune</strong>,
+                            <strong>Mauern</strong> und realisieren
+                            <strong>Poolprojekte</strong>. Zusätzlich bieten wir
+                            <strong>Bagger- und Grabearbeiten</strong> für Ihre
+                            Außenanlagen an.
+                          </p>
+                          <a
+                            href="services"
+                            class="btn btn-extra-large thin btn-link text-base-color"
+                            >Mehr erfahren</a
+                          >
+                        </div>
+                      </div>
+                      <div class="col-sm-6 services-box-img xs-h-300px">
+                        <div
+                          class="h-100 cover-background"
+                          style="background-image: url(images/service_03.jpg)"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- end slider item -->
+                  <!-- start slider item -->
+                  <div class="swiper-slide">
+                    <div class="row g-0 services-box-style-02">
+                      <div
+                        class="col-sm-6 services-box bg-white p-5 xxl-p-8 box-shadow-extra-large"
+                      >
+                        <div class="services-box-content">
+                          <a
+                            href="services"
+                            class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500"
+                            >Baumaterial und Maschinenvermietung</a
+                          >
+                          <p class="sm-mb-15px">
+                            Wir bieten <strong>Baumaterialien</strong> zum
+                            <strong>Ankauf und Verkauf</strong> sowie die
+                            <strong>Kleinmaschinenvermietung</strong> an. Mieten
+                            Sie bei uns <strong>Minibagger</strong>,
+                            <strong>Rüttelplatten</strong> und
+                            <strong>Betonmischer</strong>, um Ihre Bauvorhaben
+                            effizient umzusetzen.
+                          </p>
+                          <a
+                            href="services"
+                            class="btn btn-extra-large thin btn-link text-base-color"
+                            >Mehr erfahren</a
+                          >
+                        </div>
+                      </div>
+                      <div class="col-sm-6 services-box-img xs-h-300px">
+                        <div
+                          class="h-100 cover-background"
+                          style="background-image: url(images/service_04.jpg)"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- end slider item -->
+                  <!-- start slider item -->
+                  <div class="swiper-slide">
+                    <div class="row g-0 services-box-style-02">
+                      <div
+                        class="col-sm-6 services-box bg-white p-5 xxl-p-8 box-shadow-extra-large"
+                      >
+                        <div class="services-box-content">
+                          <a
+                            href="services"
+                            class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500"
+                            >Infrastruktur- und Glasfaserarbeiten</a
+                          >
+                          <p class="sm-mb-15px">
+                            Unsere Experten kümmern sich um
+                            <strong>Glasfaser- und Kanalarbeiten</strong> sowie
+                            <strong>Bagger- und Grabearbeiten</strong> für Ihre
+                            Infrastrukturprojekte. So stellen wir die perfekte
+                            Basis für Ihre Vorhaben sicher.
+                          </p>
+                          <a
+                            href="services"
+                            class="btn btn-extra-large thin btn-link text-base-color"
+                            >Mehr erfahren</a
+                          >
+                        </div>
+                      </div>
+                      <div class="col-sm-6 services-box-img xs-h-300px">
+                        <div
+                          class="h-100 cover-background"
+                          style="background-image: url(images/service_05.jpg)"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- end slider item -->
+                  <!-- start slider item -->
+                  <div class="swiper-slide">
+                    <div class="row g-0 services-box-style-02">
+                      <div
+                        class="col-sm-6 services-box bg-white p-5 xxl-p-8 box-shadow-extra-large"
+                      >
+                        <div class="services-box-content">
+                          <a
+                            href="services"
+                            class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500"
+                            >Komplettservice für Neubau und Renovierung</a
+                          >
+                          <p class="sm-mb-15px">
+                            Ob <strong>Neubau</strong> oder
+                            <strong>Renovierung</strong> – wir bieten den
+                            kompletten Service: <strong>Rohbau</strong>,
+                            <strong>Trockenbau</strong>,
+                            <strong>Malerarbeiten</strong> und mehr, um Ihr
+                            Projekt nach Ihren Wünschen umzusetzen.
+                          </p>
+                          <a
+                            href="services"
+                            class="btn btn-extra-large thin btn-link text-base-color"
+                            >Mehr erfahren</a
+                          >
+                        </div>
+                      </div>
+                      <div class="col-sm-6 services-box-img xs-h-300px">
+                        <div
+                          class="h-100 cover-background"
+                          style="background-image: url(images/service_06.jpg)"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- end slider item -->
+                </div>
+              </div>
+            </div>
+            <!-- start slider pagination -->
+            <!--<div class="swiper-pagination slider-four-slide-pagination-1 swiper-pagination-style-2 swiper-pagination-clickable swiper-pagination-bullets"></div>-->
+            <!-- end slider pagination -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end section -->
+    <!-- start section -->
+    <section>
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div
+            class="col-lg-7 text-center"
+            data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 800, "delay": 0, "staggervalue": 200, "easing": "easeOutQuad" }'
+          >
+            <span
+              class="fs-17 d-inline-block fw-500 text-uppercase text-base-color ls-1px"
+              >Zufriedene Kunden</span
+            >
+            <h1 class="alt-font text-dark-gray fw-600 ls-minus-1px mb-0">
+              Projekte
+            </h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <ul
+              class="blog-simple blog-wrapper grid-loading grid grid-3col xl-grid-3col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-extra-large"
+              data-anime='{ "el": "childs", "willchange": "transform", "translateY": [30, 0], "perspective": [1200,1200], "scale": [1.05, 1], "rotateY": [-30, 0], "opacity": [0,1], "duration": 800, "delay": 100, "staggervalue": 200, "easing": "easeOutQuad" }'
+            >
+              <li class="grid-sizer"></li>
+              <!-- start blog item -->
+              <li class="grid-item">
+                <figure class="position-relative mb-0 box-hover">
+                  <div class="blog-image">
+                    <img src="images/project_01.jpeg" alt="" />
+                    <span class="box-overlay bg-dark-slate-blue"></span>
+                    <span
+                      class="bg-gradient-gray-light-dark-transparent position-absolute opacity-4 top-0px left-0px w-100 h-100"
+                    ></span>
+                  </div>
+                  <figcaption
+                    class="d-flex flex-column h-100 justify-content-end"
+                  >
+                    <div
+                      class="position-relative post-content p-13 text-center last-paragraph-no-margin"
+                    >
+                      <div class="position-relative z-index-2 overflow-hidden">
+                        <a
+                          class="card-title fs-22 alt-font text-white mb-0 d-block"
+                          >Treppenbau</a
+                        >
+                        <div class="hover-text">
+                          <a
+                            href="projekte"
+                            class="btn btn-link-gradient btn-large text-white thin mt-20px mb-5px opacity-6 fw-400"
+                            >Alle Projekte<span class="bg-white"></span
+                          ></a>
+                        </div>
+                      </div>
+                      <div class="box-overlay bg-dark-gray"></div>
+                    </div>
+                  </figcaption>
+                </figure>
+              </li>
+              <!-- end blog item -->
+              <!-- start blog item -->
+              <li class="grid-item">
+                <figure class="position-relative mb-0 box-hover">
+                  <div class="blog-image">
+                    <img src="images/project_03.jpeg" alt="" />
+                    <span class="box-overlay bg-dark-slate-blue"></span>
+                    <span
+                      class="bg-gradient-gray-light-dark-transparent position-absolute opacity-4 top-0px left-0px w-100 h-100"
+                    ></span>
+                  </div>
+                  <figcaption
+                    class="d-flex flex-column h-100 justify-content-end"
+                  >
+                    <div
+                      class="position-relative post-content p-13 text-center last-paragraph-no-margin"
+                    >
+                      <div class="position-relative z-index-2 overflow-hidden">
+                        <a
+                          class="card-title fs-22 alt-font text-white mb-0 d-block"
+                          >Gartenarbeiten</a
+                        >
+                        <div class="hover-text">
+                          <a
+                            href="projekte"
+                            class="btn btn-link-gradient btn-large text-white thin mt-20px mb-5px opacity-6 fw-400"
+                            >Alle Projekte<span class="bg-white"></span
+                          ></a>
+                        </div>
+                      </div>
+                      <div class="box-overlay bg-dark-gray"></div>
+                    </div>
+                  </figcaption>
+                </figure>
+              </li>
+              <!-- end blog item -->
+              <!-- start blog item -->
+              <li class="grid-item">
+                <figure class="position-relative mb-0 box-hover">
+                  <div class="blog-image">
+                    <img src="images/project_12.jpeg" alt="" />
+                    <span class="box-overlay bg-dark-slate-blue"></span>
+                    <span
+                      class="bg-gradient-gray-light-dark-transparent position-absolute opacity-4 top-0px left-0px w-100 h-100"
+                    ></span>
+                  </div>
+                  <figcaption
+                    class="d-flex flex-column h-100 justify-content-end"
+                  >
+                    <div
+                      class="position-relative post-content p-13 text-center last-paragraph-no-margin"
+                    >
+                      <div class="position-relative z-index-2 overflow-hidden">
+                        <a
+                          class="card-title fs-22 alt-font text-white mb-0 d-block"
+                          >Rohbau</a
+                        >
+                        <div class="hover-text">
+                          <a
+                            href="projekte"
+                            class="btn btn-link-gradient btn-large text-white thin mt-20px mb-5px opacity-6 fw-400"
+                            >Alle Projekte<span class="bg-white"></span
+                          ></a>
+                        </div>
+                      </div>
+                      <div class="box-overlay bg-dark-gray"></div>
+                    </div>
+                  </figcaption>
+                </figure>
+              </li>
+              <!-- end blog item -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end section -->
+    <!-- start footer -->
+    <footer class="footer-light bg-very-light-gray">
+      <div class="container">
+        <div class="row justify-content-center mb-5 xs-mb-20px">
+          <div class="col-md-12 col-sm-10 text-center">
+            <h4 class="alt-font text-dark-gray fw-500 ls-minus-1px">
+              Auf der Suche nach einem Baupartner?
+              <a
+                href="mailto:office@uniprojekt.at"
+                class="text-base-color fw-500 text-decoration-line-bottom-medium"
+                >Nachricht senden</a
+              >
+            </h4>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <!-- start footer column -->
+          <div
+            class="col-11 col-xl-4 col-lg-2 col-md-4 order-1 order-lg-1 sm-pb-25px fs-15"
+          >
+            <span class="alt-font fw-500 fs-20 d-block text-dark-gray mb-10px"
+              >Kontakt</span
+            >
+            <ul>
+              <li>
+                <img src="images/maps-and-flags.png" style="width: 25px" /><a>
+                  Schöngrabern 510, 2020 Schöngrabern</a
+                >
+              </li>
+              <li></li>
+              <li>
+                <img src="images/phone-call.png" style="width: 25px" /><a>
+                  +43 660 222 0232</a
+                >
+              </li>
+              <li>
+                <img src="images/email.png" style="width: 25px" /><a>
+                  office@uniprojekt.at</a
+                >
+              </li>
+              <li>
+                <img src="images/24-hour-clock.png" style="width: 25px" /><a>
+                  Öffnungszeiten: Mo-Fr. 08:00 - 17:00 Uhr</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- end footer column -->
+          <!-- start footer column -->
+          <div
+            class="col-11 col-xl-2 col-lg-3 col-md-4 order-1 order-lg-2 text-center fs-15"
+          >
+            <span class="alt-font fw-500 fs-20 d-block text-dark-gray mb-10px"
+              >Menü</span
+            >
+            <ul>
+              <li><a href="home">Home</a></li>
+              <li><a href="ueber-uns">Über uns</a></li>
+              <li><a href="team">Team</a></li>
+              <li><a href="services">Services</a></li>
+              <li><a href="projekte">Projekte</a></li>
+              <li><a href="kontakt">Kontakt</a></li>
+            </ul>
+          </div>
+          <!-- end footer column -->
+          <!-- start footer column -->
+          <div
+            class="col-11 col-xl-2 col-lg-3 col-md-5 order-1 order-lg-2 text-center fs-15"
+          >
+            <span class="alt-font fw-500 fs-20 d-block text-dark-gray mb-10px xs-mt-25px"
+              >Rechtliches</span
+            >
+            <ul>
+              <li><a href="impressum">Impressum</a></li>
+              <li><a href="datenschutzerklaerung">Datenschutzerklärung</a></li>
+            </ul>
+          </div>
+          <!-- end footer column -->
+          <!-- start footer column -->
+          <div
+            class="col-lg-3 col-md-4 col-sm-6 order-3 order-lg-4 order-md-3 order-sm-4 sm-mt-35px xs-mt-25px text-center text-sm-end fs-15"
+          >
+            <a
+              ><img
+                src="logos/logo_transparent.png"
+                style="width: 50%"
+                data-at2x="logos/logo_transparent.png"
+                alt=""
+            /></a>
+            <p class="mb-15px">Ihr Partner für den Bau</p>
+            <p>
+              &COPY;
+              <a
+                href="home"
+                target="_blank"
+                class="text-decoration-line-bottom text-dark-gray fw-500"
+                >Uniprojekt</a
+              >
+            </p>
+            <a href="https://www.msv-digital.com"
+              ><img
+                src="logos/msv-digital.png"
+                style="width: 25%"
+                data-at2x="logos/msv-digital.png"
+                alt=""
+            /></a>
+          </div>
+          <!-- end footer column -->
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+    <!-- start scroll progress -->
+    <div class="scroll-progress d-none d-xxl-block">
+      <a href="#" class="scroll-top" aria-label="scroll">
+        <span class="scroll-text">Scroll</span
+        ><span class="scroll-line"><span class="scroll-point"></span></span>
+      </a>
+    </div>
+    <!-- end scroll progress -->
+    <!-- javascript libraries -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/vendors.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
 </html>

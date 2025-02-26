@@ -20,3 +20,9 @@ RewriteRule ^projekte$ /projekte.html [L]
 
 # Redirect /team to team.html
 RewriteRule ^team$ /team.html [L]
+
+# Redirect /datenschutzerklaerung to datenschutzerklaerung.html
+RewriteRule ^datenschutzerklaerung$ /datenschutzerklaerung.html [L]
+
+# Redirect /impressum to impressum.html
+RewriteRule ^impressum$ /impressum.html [L]
